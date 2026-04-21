@@ -3,5 +3,19 @@
     "allow": [
       "Bash(git -C \"e:/docs/日本語/開発者\" remote -v)"
     ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd \"e:/docs/日本語/開発者\" && git add . && (git diff --cached --quiet || (git commit -m \"毎日練習 $(date '+%Y-%m-%d')\" && git push)) 2>/dev/null || true",
+            "timeout": 30,
+            "statusMessage": "Pushing to GitHub..."
+          }
+        ]
+      }
+    ]
   }
 }
