@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git -C \"e:/docs/日本語/開発者\" remote -v)"
+      "Bash(git -C \"e:/docs/日本語/開発者\" remote -v)",
+      "Bash(git -C \"e:/docs/日本語/開発者\" log --oneline -10)",
+      "Bash(git -C \"e:/docs/日本語/開発者\" log --oneline --since=\"2026-04-21\" origin/master)",
+      "Bash(git -C \"e:/docs/日本語/開発者\" fetch origin)",
+      "Bash(git -C \"e:/docs/日本語/開発者\" log --oneline -10 origin/master)"
     ]
   },
   "hooks": {
