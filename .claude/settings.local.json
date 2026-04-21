@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"e:/docs/日本語/開発者\" remote -v)"
+    ]
+  }
+}
