@@ -1,57 +1,57 @@
 # 🇯🇵 日本語学習ノート — ITエンジニア向け
 
-Nhật ký học tiếng Nhật dành cho IT engineer. Nội dung tập trung vào ngôn ngữ thực tế tại môi trường làm việc Nhật Bản, cấp độ **N2/N3** (thỉnh thoảng N4).
+ITエンジニアのための日本語学習記録です。日本の職場環境で使われる実践的な言語を中心に、**N2/N3**レベル（時々N4）の内容をまとめています。
 
 ---
 
-## 📁 Cấu trúc thư mục
+## 📁 フォルダ構成
 
-| Folder | Nội dung |
+| フォルダ | 内容 |
 |--------|---------|
-| [AI時代/](AI時代/) | Tác động của AI với công việc lập trình. Tools, career, môi trường IT Nhật |
-| [クライド技術/](クライド技術/) | Claude API, Claude Code, prompt engineering, Agent SDK |
-| [スキル/](スキル/) | Business Japanese — email, Slack, 報連相, keigo, code review |
-| [テクニカル/](テクニカル/) | Từ vựng kỹ thuật: infra, CI/CD, security, database, architecture |
-| [毎日練習/](毎日練習/) | Bài đọc hiểu tự động mỗi ngày — crawl từ tech blog Nhật, cấp N2/N3 |
-| [面接・転職/](面接・転職/) | Phỏng vấn IT, mô tả kinh nghiệm, thương lượng lương, lý do chuyển việc |
-| [エラー・障害対応/](エラー・障害対応/) | Xử lý sự cố, đọc log, báo cáo incident, viết postmortem |
-| [ビジネス日本語/](ビジネス日本語/) | Email, Slack, 報連相, scrum, xin phép, báo cáo tiến độ |
-| [設計ドキュメント/](設計ドキュメント/) | Đọc/viết 仕様書・設計書・要件定義書、API spec, review comment |
+| [AI時代/](AI時代/) | AIがプログラミング業務に与える影響。ツール・キャリア・日本のIT環境 |
+| [クライド技術/](クライド技術/) | Claude API・Claude Code・プロンプトエンジニアリング・Agent SDK |
+| [スキル/](スキル/) | ビジネス日本語 — メール・Slack・報連相・敬語・コードレビュー |
+| [テクニカル/](テクニカル/) | 技術用語：インフラ・CI/CD・セキュリティ・データベース・アーキテクチャ |
+| [毎日練習/](毎日練習/) | 毎日自動生成される読解練習 — 日本のtech blogからクロール、N2/N3レベル |
+| [面接・転職/](面接・転職/) | ITの面接・経験の説明・給与交渉・転職理由 |
+| [エラー・障害対応/](エラー・障害対応/) | 障害対応・ログ読解・インシデント報告・ポストモーテム作成 |
+| [ビジネス日本語/](ビジネス日本語/) | メール・Slack・報連相・スクラム・休暇申請・進捗報告 |
+| [設計ドキュメント/](設計ドキュメント/) | 仕様書・設計書・要件定義書の読み書き、API仕様・レビューコメント |
 
 ---
 
-## 📅 Bài luyện hàng ngày (自動生成)
+## 📅 毎日の練習（自動生成）
 
-Mỗi ngày lúc **3:30 sáng** một agent tự động:
+毎日**午前3時30分**にエージェントが自動で以下を実行します：
 
-1. Crawl bài viết mới nhất từ [zenn.dev](https://zenn.dev), [qiita.com](https://qiita.com), tech blog Nhật
-2. Viết lại thành bài đọc ~400 chữ, văn phong thực tế của công ty Nhật
-3. Tạo 3 câu hỏi đọc hiểu
-4. Tổng hợp 6-10 từ vựng N2/N3 mới (kèm nghĩa tiếng Anh + tiếng Việt)
-5. Giải thích 2 ngữ pháp mới
-6. Commit vào `毎日練習/YYYY-MM-DD.md`
+1. [zenn.dev](https://zenn.dev)・[qiita.com](https://qiita.com)・日本のtech blogから最新記事をクロール
+2. 日本企業の実際の文体で約400字の読解文を作成
+3. 読解問題を3問作成
+4. N2/N3の新出語彙6〜10語をまとめる（英語・ベトナム語の意味付き）
+5. 新出文法2項目を解説
+6. `毎日練習/YYYY-MM-DD.md` にコミット
 
-Chủ đề xoay vòng: クラウド / Git / セキュリティ / DB / API / テスト / CI-CD / アジャイル / マイクロサービス / コードレビュー / ドキュメント / インフラ / パフォーマンス / 障害対応 / AI活用
+テーマのローテーション：クラウド / Git / セキュリティ / DB / API / テスト / CI-CD / アジャイル / マイクロサービス / コードレビュー / ドキュメント / インフラ / パフォーマンス / 障害対応 / AI活用
 
 ---
 
-## 🛠 Slash Command
+## 🛠 スラッシュコマンド
 
-Project này có slash command `/nihongo` — gõ trong Claude Code để luyện tập:
+このプロジェクトには `/nihongo` スラッシュコマンドがあります — Claude Codeで入力して練習できます：
 
 ```
-/nihongo                     # từ vựng IT ngẫu nhiên N2/N3
-/nihongo CI/CDパイプライン    # phân tích từ/chủ đề
-/nihongo grammar: ～に基づいて # giải thích ngữ pháp
-/nihongo kanji: 障            # phân tích kanji
-/nihongo scene: コードレビュー # roleplay tình huống thực tế
-/nihongo email: 進捗報告      # soạn email/Slack tiếng Nhật
-/nihongo quiz                 # 5 câu hỏi N2/N3
+/nihongo                     # N2/N3のIT用語をランダム出題
+/nihongo CI/CDパイプライン    # 用語・テーマの解説
+/nihongo grammar: ～に基づいて # 文法の説明
+/nihongo kanji: 障            # 漢字の分析
+/nihongo scene: コードレビュー # 実際の場面のロールプレイ
+/nihongo email: 進捗報告      # 日本語メール・Slackの作成
+/nihongo quiz                 # N2/N3の5問クイズ
 ```
 
 ---
 
-## 📚 Tài nguyên tham khảo
+## 📚 参考リソース
 
 - [JLPT N2 語彙リスト](https://jlptstudy.net/N2/)
 - [JLPT N3 語彙リスト](https://jlptstudy.net/N3/)
@@ -60,4 +60,4 @@ Project này có slash command `/nihongo` — gõ trong Claude Code để luyệ
 
 ---
 
-*Người học: Falco (Vietnamese IT engineer) | Mục tiêu: đọc hiểu tài liệu kỹ thuật và giao tiếp tại công ty Nhật*
+*学習者：Falco（ベトナム人ITエンジニア）| 目標：日本企業での技術文書の読解・コミュニケーション*
