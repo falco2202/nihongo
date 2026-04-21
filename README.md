@@ -56,4 +56,4 @@ Project này có slash command `/nihongo` — gõ trong Claude Code để luyệ
 
 ---
 
-*Người học: Dat (Vietnamese IT engineer) | Mục tiêu: đọc hiểu tài liệu kỹ thuật và giao tiếp tại công ty Nhật*
+*Người học: Falco (Vietnamese IT engineer) | Mục tiêu: đọc hiểu tài liệu kỹ thuật và giao tiếp tại công ty Nhật*
