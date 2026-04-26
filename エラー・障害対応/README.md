@@ -1,3 +1,9 @@
+---
+layout: default
+title: エラー・障害対応
+nav_order: 10
+---
+
 # エラー・障害対応
 
 ## 📚 テーマ一覧

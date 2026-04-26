@@ -1,0 +1,88 @@
+remote_theme: just-the-docs/just-the-docs
+
+title: 日本語学習ノート
+description: ITエンジニアのための実践的日本語学習記録。N2/N3レベルの技術語彙・文法・読解を毎日自動生成。
+url: "https://falco2202.github.io"
+baseurl: "/nihongo"
+lang: ja
+
+# ── Appearance ──────────────────────────────────────────────
+color_scheme: light
+
+# ── Search ──────────────────────────────────────────────────
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 2
+  preview_words_before: 3
+  preview_words_after: 3
+
+# ── Navigation ──────────────────────────────────────────────
+nav_sort: case_insensitive
+
+aux_links:
+  "GitHub ↗":
+    - "https://github.com/falco2202/nihongo"
+aux_links_new_tab: true
+
+back_to_top: true
+back_to_top_text: "↑ トップへ"
+
+# ── Footer ──────────────────────────────────────────────────
+footer_content: "日本語学習ノート — Falco"
+
+# ── GitHub edit link ─────────────────────────────────────────
+last_edit_timestamp: true
+last_edit_time_format: "%Y年%m月%d日"
+gh_edit_link: true
+gh_edit_link_text: "GitHubで編集"
+gh_edit_repository: "https://github.com/falco2202/nihongo"
+gh_edit_branch: "master"
+gh_edit_view_mode: "edit"
+
+# ── Plugins ──────────────────────────────────────────────────
+plugins:
+  - jekyll-remote-theme
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-seo-tag
+
+optional_front_matter:
+  remove_originals: true
+
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: true
+
+readme_index:
+  enabled:          true
+  remove_originals: true
+
+relative_links:
+  enabled:     true
+  collections: true
+
+# ── Exclude ──────────────────────────────────────────────────
+exclude:
+  - .claude/
+  - Gemfile
+  - Gemfile.lock
+
+# ── Front matter defaults ────────────────────────────────────
+# All pages use default layout; dated files get parent auto-set
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "毎日練習/20"
+    values:
+      parent: 毎日練習
+  - scope:
+      path: "ニュース/20"
+    values:
+      parent: ニュース

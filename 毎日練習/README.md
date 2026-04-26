@@ -1,3 +1,10 @@
+---
+layout: default
+title: 毎日練習
+nav_order: 2
+has_children: true
+---
+
 # 毎日練習
 
 毎日**午前3時30分**にエージェントが自動生成するN2/N3レベルのIT読解練習です。

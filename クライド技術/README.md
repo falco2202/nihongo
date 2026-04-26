@@ -1,3 +1,9 @@
+---
+layout: default
+title: クライド技術
+nav_order: 5
+---
+
 # クライド技術
 
 ## 📚 テーマ一覧

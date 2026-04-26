@@ -1,3 +1,9 @@
+---
+layout: default
+title: ビジネス日本語
+nav_order: 8
+---
+
 # ビジネス日本語
 
 ## 📚 テーマ一覧

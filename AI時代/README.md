@@ -1,3 +1,9 @@
+---
+layout: default
+title: AI時代
+nav_order: 6
+---
+
 # AI時代
 
 ## 📚 テーマ一覧

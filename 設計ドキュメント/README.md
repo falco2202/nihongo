@@ -1,3 +1,9 @@
+---
+layout: default
+title: 設計ドキュメント
+nav_order: 9
+---
+
 # 設計ドキュメント
 
 ## 📚 テーマ一覧
