@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nihongo Repo Guide"
+  short_description: "Maintain this Japanese learning repo"
+  default_prompt: "Use $nihongo-repo-guide to create or update content in this Japanese learning repository."
