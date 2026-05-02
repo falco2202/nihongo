@@ -95,4 +95,18 @@ BJTでは、文法を知っているだけでは十分ではありません。
 
 ---
 
+### 音声の作成
+
+例文の音声を作成する場合は、`OPENAI_API_KEY` を設定してから次のコマンドを実行します。
+
+```bash
+python scripts/generate_tts.py ビジネス日本語/2026-05-02.md ビジネス日本語/audio/2026-05-02-report.mp3
+```
+
+音声を作成する前に、読み上げ対象のテキストだけを確認したい場合は `--dry-run` を付けます。
+
+GitHub Actions では、`master` ブランチに push されたときに `.github/workflows/build-audio.yml` が実行され、`OPENAI_API_KEY` リポジトリシークレットを使って音声を作成します。
+
+---
+
 *BJT対策・ビジネス日本語毎日練習 | falco2202/nihongo*
