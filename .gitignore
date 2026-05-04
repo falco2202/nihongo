@@ -5,3 +5,5 @@ scripts
 .github/
 .codex/documents/
 .codex/prompts/
+# Visual Studio workspace cache
+**/.vs/
