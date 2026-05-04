@@ -1,16 +1,13 @@
 # Repo Map
 
-This repository is a Japanese learning notebook for an IT engineer. It is built as a Just the Docs Jekyll site.
+This repository is a Markdown-based Japanese learning notebook for an IT engineer. Learning content lives under `documents/`; repo-level files such as root `README.md`, `.codex/`, and `.github/` stay at the repository root.
 
-## Site Configuration
+## Repository Layout
 
-- `_config.yml`: Just the Docs configuration.
-- Theme: `just-the-docs/just-the-docs`.
-- Site title: `日本語学習ノート`.
-- Base URL: `/nihongo`.
-- Language: Japanese.
-- Search enabled.
-- `README.md` is the home page.
+- Root `README.md`: repository overview.
+- `documents/`: learning content and section indexes.
+- `.codex/`: Codex prompts, repo-local skill, and internal notes.
+- `.github/`: lesson-generation workflows.
 
 ## Root README
 
@@ -22,26 +19,26 @@ Main learner:
 - Targets N2/N3 practical Japanese.
 - Wants to read Japanese technical documents and communicate in Japanese workplaces.
 
-Root folder overview:
+Content folder overview under `documents/`:
 
 ```text
-毎日練習/          daily generated IT reading practice
-ニュース/          Japanese IT/science/life news readings
-テクニカル/        technical vocabulary and docs
-クライド技術/      Claude API, Claude Code, agent/prompt topics
-AI時代/           AI-era developer career and tools
-スキル/            workplace Japanese skills
-ビジネス日本語/    BJT and business Japanese practice
-設計ドキュメント/  specs, requirements, design docs
-エラー・障害対応/  incidents, logs, postmortems
-面接・転職/        interviews and job change preparation
+documents/毎日練習/          daily generated IT reading practice
+documents/ニュース/          Japanese IT/science/life news readings
+documents/テクニカル/        technical vocabulary and docs
+documents/クライド技術/      Claude API, Claude Code, agent/prompt topics
+documents/AI時代/           AI-era developer career and tools
+documents/スキル/            workplace Japanese skills
+documents/ビジネス日本語/    BJT and business Japanese practice
+documents/設計ドキュメント/  specs, requirements, design docs
+documents/エラー・障害対応/  incidents, logs, postmortems
+documents/面接・転職/        interviews and job change preparation
 ```
 
 ## Section Details
 
 ### 毎日練習
 
-Daily IT reading lessons. README says the standard lesson contains:
+Daily IT reading lessons in `documents/毎日練習/`. README says the standard lesson contains:
 
 - Japanese technical reading passage, around 1000 characters.
 - Reading questions.
@@ -52,7 +49,7 @@ Theme rotation includes cloud, Git, security, DB, API, testing, CI/CD, agile, mi
 
 ### ニュース
 
-News reading section for IT, science, society/life. Files live under monthly folders such as `ニュース/2026-04/2026-04-22.md`.
+News reading section for IT, science, society/life. Files live under monthly folders such as `documents/ニュース/2026-04/2026-04-22.md`.
 
 Typical format:
 
@@ -80,7 +77,7 @@ Practical workplace Japanese skills for engineers: business Japanese, code revie
 
 ### ビジネス日本語
 
-BJT and business Japanese practice. Current goal: BJTビジネス日本語能力テスト 400点以上.
+BJT and business Japanese practice in `documents/ビジネス日本語/`. Current goal: BJTビジネス日本語能力テスト 400点以上.
 
 Prioritize:
 
@@ -108,14 +105,3 @@ Incident response Japanese: incident reports, log reading, cause investigation, 
 ### 面接・転職
 
 Japanese for job interviews and career change: self-introduction, project experience, technical interviews, motivation, reverse questions, condition negotiation, resignation/job-change reasons.
-
-## Claude Command
-
-`.claude/commands/nihongo.md` defines a `/nihongo` tutor command. It emphasizes:
-
-- Japanese tutor for Vietnamese IT engineers.
-- N2/N3 default.
-- No furigana.
-- English and Vietnamese translations.
-- Developer-realistic examples.
-- Modes for vocabulary, grammar, kanji, quiz, scene, email/slack, and reading/doc generation.

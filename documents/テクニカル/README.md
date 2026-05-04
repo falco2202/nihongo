@@ -1,10 +1,4 @@
----
-layout: default
-title: テクニカル
-nav_order: 4
----
-
-# テクニカル
+﻿# テクニカル
 
 ## 📚 テーマ一覧
 

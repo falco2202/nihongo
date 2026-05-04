@@ -2,7 +2,7 @@
 
 Use these as defaults. Adjust when the user asks for a different length or structure.
 
-## Daily IT Practice: `毎日練習/YYYY-MM-DD.md`
+## Daily IT Practice: `documents/毎日練習/YYYY-MM-DD.md`
 
 ```markdown
 # 毎日練習 — YYYY-MM-DD
@@ -55,7 +55,7 @@ Use these as defaults. Adjust when the user asks for a different length or struc
 *自動生成：毎日練習スクリプト | falco2202/nihongo*
 ```
 
-## BJT / Business Japanese: `ビジネス日本語/YYYY-MM-DD.md`
+## BJT / Business Japanese: `documents/ビジネス日本語/YYYY-MM-DD.md`
 
 ```markdown
 # ビジネス日本語 — YYYY-MM-DD
@@ -119,7 +119,7 @@ Use these as defaults. Adjust when the user asks for a different length or struc
 *BJT対策・ビジネス日本語毎日練習 | falco2202/nihongo*
 ```
 
-## News: `ニュース/YYYY-MM/YYYY-MM-DD.md`
+## News: `documents/ニュース/YYYY-MM/YYYY-MM-DD.md`
 
 ```markdown
 # <Japanese headline>

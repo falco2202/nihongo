@@ -1,10 +1,4 @@
----
-layout: default
-title: スキル
-nav_order: 7
----
-
-# スキル
+﻿# スキル
 
 ## 📚 テーマ一覧
 

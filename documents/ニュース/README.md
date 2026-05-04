@@ -1,11 +1,4 @@
----
-layout: default
-title: ニュース
-nav_order: 3
-has_children: true
----
-
-# ニュース — IT・科学・生活
+﻿# ニュース — IT・科学・生活
 
 毎日のニュースを日本語で読んで、語彙と読解力を鍛えるセクション。
 

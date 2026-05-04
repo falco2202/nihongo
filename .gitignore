@@ -2,4 +2,6 @@
 **/audio/*.mp3
 !**/audio/.gitkeep
 scripts
-.github
+.github/
+.codex/documents/
+.codex/prompts/
