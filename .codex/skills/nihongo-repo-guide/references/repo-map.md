@@ -25,7 +25,7 @@ Content folder overview under `documents/`:
 documents/毎日練習/          daily generated IT reading practice
 documents/ニュース/          Japanese IT/science/life news readings
 documents/テクニカル/        technical vocabulary and docs
-documents/クライド技術/      Claude API, Claude Code, agent/prompt topics
+documents/クライド技術/      AWS, GCP, Azure, cloud tech Japanese
 documents/AI時代/           AI-era developer career and tools
 documents/スキル/            workplace Japanese skills
 documents/ビジネス日本語/    BJT and business Japanese practice

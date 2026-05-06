@@ -93,6 +93,31 @@ Use these as defaults. Adjust when the user asks for a different length or struc
 
 ---
 
+## 🧭 BJT状況判断
+
+次の場面で、最も適切な対応を選んでください。
+
+<Realistic workplace situation.>
+
+A. <bad or incomplete response>
+
+B. <bad or incomplete response>
+
+C. <best response>
+
+D. <bad or irrelevant response>
+
+<details>
+<summary>解答</summary>
+
+正解：C
+
+<short explanation of why this response is natural in Japanese business context.>
+
+</details>
+
+---
+
 ## 📝 語彙リスト
 
 | 単語 | 読み | 英語 | ベトナム語 |
@@ -110,9 +135,42 @@ Use these as defaults. Adjust when the user asks for a different length or struc
 
 ---
 
+## 🎧 音声
+
+<audio controls>
+  <source src="audio/YYYY-MM-DD.mp3" type="audio/mpeg">
+</audio>
+
+[音声ファイルを開く](audio/YYYY-MM-DD.mp3)
+
+---
+
 ## ✉️ 例文
 
 <Optional but recommended for email, chat, reports, requests, apologies, phone messages, and meetings.>
+
+---
+
+## 🧩 今日の練習
+
+次のベトナム語を、自然なビジネス日本語に直してください。
+
+1. <Vietnamese prompt>
+2. <Vietnamese prompt>
+3. <Vietnamese prompt>
+4. <Vietnamese prompt>
+5. <Vietnamese prompt>
+
+<details>
+<summary>解答例</summary>
+
+1. <natural business Japanese answer>
+2. <natural business Japanese answer>
+3. <natural business Japanese answer>
+4. <natural business Japanese answer>
+5. <natural business Japanese answer>
+
+</details>
 
 ---
 
