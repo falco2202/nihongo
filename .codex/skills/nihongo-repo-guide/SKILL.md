@@ -38,7 +38,8 @@ High-level content folders under `documents/`:
 ## Content Rules
 
 - Preserve existing Markdown style.
-- Use date filenames for dated practice files: `YYYY-MM-DD.md`.
+- Use date filenames only for `documents/毎日練習/YYYY-MM-DD.md` and `documents/ニュース/YYYY-MM/YYYY-MM-DD.md`.
+- Use numbered theme filenames for other learning sections: `NN_テーマ.md`.
 - Use relative links in README tables.
 - For vocabulary tables, prefer columns: `単語 | 読み | 英語 | ベトナム語`.
 - Avoid furigana in prose; put readings in dedicated table fields.
@@ -53,7 +54,7 @@ Use `documents/毎日練習/YYYY-MM-DD.md`. Follow the format in `references/les
 
 ### Create a BJT/business Japanese lesson
 
-Use `documents/ビジネス日本語/YYYY-MM-DD.md`. Include BJT-style intent and judgment questions. Update `documents/ビジネス日本語/README.md` learning log.
+Use the next numbered theme file, such as `documents/ビジネス日本語/NN_テーマ.md`. Include BJT-style intent and judgment questions. Update `documents/ビジネス日本語/README.md` learning log.
 
 ### Create or update a section README
 

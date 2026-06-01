@@ -92,7 +92,7 @@ Prioritize:
 - 交渉
 - 社内チャット
 
-Create dated lessons here when the user asks for BJT, business Japanese, workplace emails, meetings, keigo, or BJT 400+ preparation.
+Create numbered theme lessons here when the user asks for BJT, business Japanese, workplace emails, meetings, keigo, or BJT 400+ preparation. Use `NN_テーマ.md`; date filenames are reserved for `毎日練習` and `ニュース`.
 
 ### 設計ドキュメント
 

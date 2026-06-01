@@ -55,10 +55,10 @@ Use these as defaults. Adjust when the user asks for a different length or struc
 *自動生成：毎日練習スクリプト | falco2202/nihongo*
 ```
 
-## BJT / Business Japanese: `documents/ビジネス日本語/YYYY-MM-DD.md`
+## BJT / Business Japanese: `documents/ビジネス日本語/NN_テーマ.md`
 
 ```markdown
-# ビジネス日本語 — YYYY-MM-DD
+# ビジネス日本語 — <business topic>
 
 **テーマ：** <business topic>  
 **目標：** BJT 400点以上  
@@ -138,10 +138,10 @@ D. <bad or irrelevant response>
 ## 🎧 音声
 
 <audio controls>
-  <source src="audio/YYYY-MM-DD.mp3" type="audio/mpeg">
+  <source src="audio/NN_テーマ.mp3" type="audio/mpeg">
 </audio>
 
-[音声ファイルを開く](audio/YYYY-MM-DD.mp3)
+[音声ファイルを開く](audio/NN_テーマ.mp3)
 
 ---
 
